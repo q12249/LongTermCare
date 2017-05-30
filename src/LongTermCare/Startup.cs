@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
+using LongTermCare.Models;
 
 namespace LongTermCare
 {
@@ -29,6 +31,8 @@ namespace LongTermCare
         {
             // Add framework services.
             services.AddMvc();
+            var DHAConnectString = "Server=vpn-2;Database=DHA;User Id=sa;Password=a12345";
+            services.AddDbContext<DHADBContext>(options => options.UseSqlServer(DHAConnectString));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

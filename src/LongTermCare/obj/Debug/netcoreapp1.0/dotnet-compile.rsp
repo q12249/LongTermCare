@@ -1,5 +1,5 @@
---temp-output:\\nas\hdd$\_何建龍\2015Projects\MVC\LongTermCare\src\LongTermCare\obj\Debug\netcoreapp1.0\
---out:\\nas\hdd$\_何建龍\2015Projects\MVC\LongTermCare\src\LongTermCare\bin\Debug\netcoreapp1.0\LongTermCare.dll
+--temp-output:D:\Git\LongTermCare\src\LongTermCare\obj\Debug\netcoreapp1.0\
+--out:D:\Git\LongTermCare\src\LongTermCare\bin\Debug\netcoreapp1.0\LongTermCare.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -76,7 +76,7 @@
 --reference:C:\Users\Alex\.nuget\packages\Microsoft.Extensions.Configuration.FileExtensions\1.0.0\lib\netstandard1.3\Microsoft.Extensions.Configuration.FileExtensions.dll
 --reference:C:\Users\Alex\.nuget\packages\Microsoft.Extensions.Configuration.Json\1.0.0\lib\netstandard1.3\Microsoft.Extensions.Configuration.Json.dll
 --reference:C:\Users\Alex\.nuget\packages\Microsoft.Extensions.DependencyInjection\1.1.0\lib\netstandard1.1\Microsoft.Extensions.DependencyInjection.dll
---reference:C:\Users\Alex\.nuget\packages\Microsoft.Extensions.DependencyInjection.Abstractions\1.1.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+--reference:C:\Users\Alex\.nuget\packages\Microsoft.Extensions.DependencyInjection.Abstractions\1.1.1\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 --reference:C:\Users\Alex\.nuget\packages\Microsoft.Extensions.DependencyModel\1.0.0\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll
 --reference:C:\Users\Alex\.nuget\packages\Microsoft.Extensions.FileProviders.Abstractions\1.1.0\lib\netstandard1.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 --reference:C:\Users\Alex\.nuget\packages\Microsoft.Extensions.FileProviders.Composite\1.0.0\lib\netstandard1.0\Microsoft.Extensions.FileProviders.Composite.dll
@@ -85,8 +85,8 @@
 --reference:C:\Users\Alex\.nuget\packages\Microsoft.Extensions.Globalization.CultureInfoCache\1.0.0\lib\netstandard1.1\Microsoft.Extensions.Globalization.CultureInfoCache.dll
 --reference:C:\Users\Alex\.nuget\packages\Microsoft.Extensions.Localization\1.0.0\lib\netstandard1.3\Microsoft.Extensions.Localization.dll
 --reference:C:\Users\Alex\.nuget\packages\Microsoft.Extensions.Localization.Abstractions\1.0.0\lib\netstandard1.0\Microsoft.Extensions.Localization.Abstractions.dll
---reference:C:\Users\Alex\.nuget\packages\Microsoft.Extensions.Logging\1.0.0\lib\netstandard1.1\Microsoft.Extensions.Logging.dll
---reference:C:\Users\Alex\.nuget\packages\Microsoft.Extensions.Logging.Abstractions\1.1.1\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll
+--reference:C:\Users\Alex\.nuget\packages\Microsoft.Extensions.Logging\1.1.2\lib\netstandard1.1\Microsoft.Extensions.Logging.dll
+--reference:C:\Users\Alex\.nuget\packages\Microsoft.Extensions.Logging.Abstractions\1.1.2\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll
 --reference:C:\Users\Alex\.nuget\packages\Microsoft.Extensions.Logging.Console\1.0.0\lib\netstandard1.3\Microsoft.Extensions.Logging.Console.dll
 --reference:C:\Users\Alex\.nuget\packages\Microsoft.Extensions.Logging.Debug\1.0.0\lib\netstandard1.3\Microsoft.Extensions.Logging.Debug.dll
 --reference:C:\Users\Alex\.nuget\packages\Microsoft.Extensions.ObjectPool\1.0.0\lib\netstandard1.3\Microsoft.Extensions.ObjectPool.dll
@@ -201,9 +201,10 @@
 --reference:C:\Users\Alex\.nuget\packages\System.Threading.Timer\4.3.0\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Alex\.nuget\packages\System.Xml.ReaderWriter\4.3.0\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Alex\.nuget\packages\System.Xml.XDocument\4.3.0\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"\\nas\hdd$\_何建龍\2015Projects\MVC\LongTermCare\src\LongTermCare\obj\Debug\netcoreapp1.0\LongTermCaredotnet-compile.deps.json",LongTermCare.deps.json
-\\nas\hdd$\_何建龍\2015Projects\MVC\LongTermCare\src\LongTermCare\Program.cs
-\\nas\hdd$\_何建龍\2015Projects\MVC\LongTermCare\src\LongTermCare\Startup.cs
-\\nas\hdd$\_何建龍\2015Projects\MVC\LongTermCare\src\LongTermCare\Controllers\HomeApiController.cs
-\\nas\hdd$\_何建龍\2015Projects\MVC\LongTermCare\src\LongTermCare\Controllers\HomeController.cs
-\\nas\hdd$\_何建龍\2015Projects\MVC\LongTermCare\src\LongTermCare\Models\HomeModels.cs
+--resource:"D:\Git\LongTermCare\src\LongTermCare\obj\Debug\netcoreapp1.0\LongTermCaredotnet-compile.deps.json",LongTermCare.deps.json
+D:\Git\LongTermCare\src\LongTermCare\Program.cs
+D:\Git\LongTermCare\src\LongTermCare\Startup.cs
+D:\Git\LongTermCare\src\LongTermCare\Controllers\HomeApiController.cs
+D:\Git\LongTermCare\src\LongTermCare\Controllers\HomeController.cs
+D:\Git\LongTermCare\src\LongTermCare\Models\DHA.cs
+D:\Git\LongTermCare\src\LongTermCare\Models\HomeModels.cs
