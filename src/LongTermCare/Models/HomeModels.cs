@@ -8,8 +8,15 @@ namespace LongTermCare.Models
 {
     public class User
     {
+        [Required]
+        [Display(Name = "帳號")]
         public string id { get; set; }
+        [Required]
+        [DataType(DataType.Password)]
+        [Display(Name = "密碼")]
         public string pwd { get; set; }
+        [Display(Name = "記住我?")]
+        public bool RememberMe { get; set; }
     }
     
     public class UserInfo
